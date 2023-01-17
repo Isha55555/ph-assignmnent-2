@@ -244,25 +244,28 @@ main {
   margin-left: 130px;
 
 }
-.facts h3{
+
+.facts h3 {
   color: #131313;
   font-weight: 700;
-font-size: 45px;
+  font-size: 45px;
 }
-.facts p{
+
+.facts p {
   color: #727272;
   font-weight: 400;
-font-size: 16px;
-text-align: left;
-width: 50%;
-padding-top: 25px;
+  font-size: 16px;
+  text-align: left;
+  width: 50%;
+  padding-top: 25px;
 }
 
 /* achievements sections styles */
-.achievements{
+.achievements {
   display: flex;
 }
-.achievements div{
+
+.achievements div {
   border: 1px solid #FF900E;
   border-radius: 8px;
   margin-top: 100px;
@@ -271,33 +274,114 @@ padding-top: 25px;
   width: 240px;
   align-items: center;
   margin-bottom: 180px;
-  
+
 
 }
-.achievements h3{
+
+.achievements h3 {
   color: #424242;
   font-weight: 600;
-font-size: 45px;
-text-align: center;
+  font-size: 45px;
+  text-align: center;
 
 }
-.achievements img{
+
+.achievements img {
   align-items: center;
   padding-top: 50px;
   padding-left: 50px;
- 
-}
-.achievements p{
-  color: #727272;
-  font-weight: 600;
-font-size: 20px;
-text-align: center;
-padding-left: 30px;
+
 }
 
-.achievements div:hover{
+.achievements p {
+  color: #727272;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.achievements div:hover {
   transform: rotate(90deg);
   background-color: red;
 }
 
+/* Sponsors section styles */
+.sponsors-text {
+  text-align: center;
+}
 
+.sponsors-text h3 {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.sponsors-text p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+  margin: 0px auto;
+  padding-bottom: 100px;
+
+}
+
+/*Footer styles */
+
+/* subscribe section styles */
+
+.subscribe {
+
+  background-color: #424242;
+}
+
+.end-title {
+  font-size: 60px;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+
+}
+
+#email {
+  padding: 30px 30px;
+  width: 20%;
+  align-self: center;
+  margin-left: 475px;
+  font-size: medium;
+
+}
+
+#btn-sub {
+  margin-left: 475px;
+  margin-bottom: 30px;
+}
+
+
+.copyright {
+
+  text-align: center;
+  height: auto;
+}
+
+.copyright div {
+  background: #FFF4E7;
+  border-radius: 8px;
+  width: 90%;
+
+  margin-top: 170px;
+  margin-bottom: 170px;
+  margin-left: 50px;
+}
+
+.copyright div p {
+  padding: 35px 200px;
+}
