@@ -1,0 +1,303 @@
+/* Common styles */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
+
+* {
+  margin: 0;
+
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 220px;
+
+}
+
+.page-title {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 45px;
+  color: #131313;
+  padding-right: auto;
+}
+
+.list-items {
+  display: flex;
+  text-align: center;
+
+
+}
+
+.item {
+  list-style: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 30px;
+
+
+}
+
+.item a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.banner {
+  text-align: center;
+
+  padding-top: 100px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.banner-description {
+  display: flex;
+  justify-content: center;
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
+
+
+}
+
+.banner-image {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+
+}
+
+.banner-image img {
+  width: 90%;
+  padding-bottom: 45px;
+}
+
+.btn-primary {
+  width: 170px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: #FF900E;
+  border-radius: 8px;
+  border: 0;
+  padding: auto;
+  margin-top: 50px;
+}
+
+/* features section styles */
+main {
+  width: 100%;
+}
+
+
+.pics {
+
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 80px;
+  padding-left: 30px;
+
+}
+
+.pic-and-text {
+  display: flex;
+  align-items: center;
+
+}
+
+.quick-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #131313;
+
+}
+
+.quick-paragraph {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 25px;
+  width: 80%;
+}
+
+.pic-text {
+  padding-left: 100px;
+  width: 50%;
+  text-align: left;
+
+
+
+}
+
+.orange {
+  color: #FF900E;
+}
+
+.gray {
+  color: #727272;
+}
+
+/* customer  and feature section styles */
+
+.feature {
+
+  margin: 130px;
+  display: flex;
+  text-align: left;
+}
+
+
+
+.feat-title {
+  color: #131313;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 45px;
+  padding-left: 20px;
+  border-left: 5px solid #FF900E;
+  margin-bottom: 30px;
+
+}
+
+.texts {
+  margin-right: 140px;
+
+}
+
+.texts p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 30px;
+
+
+}
+
+.architect {
+  height: 100vh;
+}
+
+.div {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 30px;
+  width: 120%;
+  margin-bottom: 30px;
+
+}
+
+.div-title {
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.div-descrip {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.img-button {
+  position: relative;
+  top: -150px;
+  right: 20px;
+  width: 342px;
+  height: 200px;
+}
+
+.img-btn-text {
+  padding: 45px 42px;
+}
+
+.img-btn-text h3 {
+  font-weight: 700;
+  font-size: 65px;
+}
+
+.img-btn-text {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.facts {
+  margin-top: 130px;
+  margin-left: 130px;
+
+}
+.facts h3{
+  color: #131313;
+  font-weight: 700;
+font-size: 45px;
+}
+.facts p{
+  color: #727272;
+  font-weight: 400;
+font-size: 16px;
+text-align: left;
+width: 50%;
+padding-top: 25px;
+}
+
+/* achievements sections styles */
+.achievements{
+  display: flex;
+}
+.achievements div{
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  margin-top: 100px;
+  margin-right: 125px;
+  height: 240px;
+  width: 240px;
+  align-items: center;
+  margin-bottom: 180px;
+  
+
+}
+.achievements h3{
+  color: #424242;
+  font-weight: 600;
+font-size: 45px;
+text-align: center;
+
+}
+.achievements img{
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 50px;
+ 
+}
+.achievements p{
+  color: #727272;
+  font-weight: 600;
+font-size: 20px;
+text-align: center;
+padding-left: 30px;
+}
+
+.achievements div:hover{
+  transform: rotate(90deg);
+  background-color: red;
+}
+
+
